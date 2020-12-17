@@ -1,1 +1,1 @@
-# security-course
+# kodilla-course-adv

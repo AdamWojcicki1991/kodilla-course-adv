@@ -1,7 +1,7 @@
-package com.kodilla.adv.service;
+package com.kodilla.library.service;
 
-import com.kodilla.adv.domain.Book;
-import com.kodilla.adv.repository.BookRepository;
+import com.kodilla.library.domain.Book;
+import com.kodilla.library.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 
 import java.util.List;

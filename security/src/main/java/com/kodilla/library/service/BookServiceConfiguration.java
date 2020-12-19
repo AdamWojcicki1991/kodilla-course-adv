@@ -1,6 +1,6 @@
-package com.kodilla.adv.service;
+package com.kodilla.library.service;
 
-import com.kodilla.adv.repository.BookRepository;
+import com.kodilla.library.repository.BookRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

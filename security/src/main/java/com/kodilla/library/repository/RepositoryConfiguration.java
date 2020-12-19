@@ -1,4 +1,4 @@
-package com.kodilla.adv.repository;
+package com.kodilla.library.repository;
 
 
 import org.springframework.context.annotation.Bean;

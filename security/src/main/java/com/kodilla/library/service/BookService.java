@@ -1,6 +1,6 @@
-package com.kodilla.adv.service;
+package com.kodilla.library.service;
 
-import com.kodilla.adv.domain.Book;
+import com.kodilla.library.domain.Book;
 
 import java.util.List;
 

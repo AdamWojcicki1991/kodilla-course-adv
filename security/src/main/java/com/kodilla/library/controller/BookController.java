@@ -1,8 +1,8 @@
-package com.kodilla.adv.controller;
+package com.kodilla.library.controller;
 
-import com.kodilla.adv.domain.BookDto;
-import com.kodilla.adv.mapper.BookMapper;
-import com.kodilla.adv.service.BookService;
+import com.kodilla.library.domain.BookDto;
+import com.kodilla.library.mapper.BookMapper;
+import com.kodilla.library.service.BookService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

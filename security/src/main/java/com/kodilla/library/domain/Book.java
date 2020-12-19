@@ -1,4 +1,4 @@
-package com.kodilla.adv.domain;
+package com.kodilla.library.domain;
 
 import lombok.Value;
 

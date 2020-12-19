@@ -1,4 +1,4 @@
-package com.kodilla.adv.security;
+package com.kodilla.library.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;

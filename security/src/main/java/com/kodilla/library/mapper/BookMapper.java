@@ -1,7 +1,7 @@
-package com.kodilla.adv.mapper;
+package com.kodilla.library.mapper;
 
-import com.kodilla.adv.domain.Book;
-import com.kodilla.adv.domain.BookDto;
+import com.kodilla.library.domain.Book;
+import com.kodilla.library.domain.BookDto;
 
 import java.util.List;
 

@@ -1,0 +1,8 @@
+com/kodilla/bytebuddy/Book.java
+ com.kodilla.bytebuddy.Book
+com/kodilla/bytebuddy/BooksFilter.java
+ com.kodilla.bytebuddy.BooksFilter
+com/kodilla/bytebuddy/BuddyApp.java
+ com.kodilla.bytebuddy.BuddyApp
+com/kodilla/bytebuddy/BooksGenerator.java
+ com.kodilla.bytebuddy.BooksGenerator

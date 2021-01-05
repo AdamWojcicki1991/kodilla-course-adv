@@ -1,3 +1,5 @@
 rootProject.name = 'adv'
 include 'kodilla-byte-manipulation'
+include 'kodilla-byte-buddy'
+include 'kodilla-agent'
 

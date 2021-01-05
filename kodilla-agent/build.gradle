@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group 'com.kodilla'
+version '0.0.1-SNAPSHOT'
+
+jar {
+    archiveName("kodilla-agent.jar")
+    //fat jar
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    manifest {
+        attributes(
+                'Premain-Class': 'com.kodilla.agent.Agent',
+                'Can-Redefine-Classes': 'true',
+                'Can-Retransform-Classes': 'true'
+        )
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'net.bytebuddy:byte-buddy:1.10.18'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}

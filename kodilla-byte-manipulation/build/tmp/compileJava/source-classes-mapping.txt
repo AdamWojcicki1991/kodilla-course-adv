@@ -1,0 +1,6 @@
+com/kodilla/bytecode/reflection/Book.java
+ com.kodilla.bytecode.reflection.Book
+com/kodilla/bytecode/reflection/ReflectionTest.java
+ com.kodilla.bytecode.reflection.ReflectionTest
+com/kodilla/bytecode/reflection/ReflectionTestPrivate.java
+ com.kodilla.bytecode.reflection.ReflectionTestPrivate

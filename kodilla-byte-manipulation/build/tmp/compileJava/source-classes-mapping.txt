@@ -4,3 +4,9 @@ com/kodilla/bytecode/reflection/ReflectionTest.java
  com.kodilla.bytecode.reflection.ReflectionTest
 com/kodilla/bytecode/reflection/ReflectionTestPrivate.java
  com.kodilla.bytecode.reflection.ReflectionTestPrivate
+com/kodilla/bytecode/reflection/StringGenerator.java
+ com.kodilla.bytecode.reflection.StringGenerator
+com/kodilla/bytecode/reflection/Student.java
+ com.kodilla.bytecode.reflection.Student
+com/kodilla/bytecode/reflection/ReflectionStudentTest.java
+ com.kodilla.bytecode.reflection.ReflectionStudentTest

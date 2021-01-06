@@ -5,4 +5,5 @@ include 'kodilla-agent'
 include 'kodilla-byte-buddy-exercise'
 include 'kodilla-agent-exercise'
 include 'kodilla-proxy'
+include 'kodilla-proxy-exercise'
 

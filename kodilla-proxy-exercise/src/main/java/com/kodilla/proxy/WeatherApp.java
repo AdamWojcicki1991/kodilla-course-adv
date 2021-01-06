@@ -13,10 +13,11 @@ public class WeatherApp {
 //            WeatherDataRetrieverDb weatherDataRetriever = new WeatherDataRetriever();
             WeatherDataRetrieverDb weatherDataRetriever = new LazyWeatherDataRetrieverProxy();
             int number = new Random().nextInt(100);
-            if (number < 20)
+            if (number < 20) {
                 System.out.println(weatherDataRetriever.refreshData());
-            else if (number < 30)
+            } else if (number < 30) {
                 System.out.println(weatherDataRetriever.getWeather());
+            }
             System.out.println("Execution #" + n + " just finished");
         }
 
